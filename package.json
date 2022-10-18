@@ -1,26 +1,31 @@
 {
-    "name": "lighthouse-reporter-root",
-    "version": "1.0.0",
-    "description": "A monorepo containing the code to run Lighthouse in a docker container and get the reports.",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/dvelasquez/lighthouse-reporter-docker.git"
-    },
-    "keywords": [
-      "lighthouse",
-      "webperf",
-      "performance",
-      "docker"
-    ],
-    "author": "Danilo Velasquez <danilo.velasquez@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/dvelasquez/lighthouse-reporter-docker/issues"
-    },
-    "homepage": "https://github.com/dvelasquez/lighthouse-reporter-docker#readme"
+  "name": "lighthouse-reporter-root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A monorepo containing the code to run Lighthouse in a docker container and get the reports.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dvelasquez/lighthouse-reporter-docker.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "webperf",
+    "performance",
+    "docker"
+  ],
+  "author": "Danilo Velasquez <danilo.velasquez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvelasquez/lighthouse-reporter-docker/issues"
+  },
+  "homepage": "https://github.com/dvelasquez/lighthouse-reporter-docker#readme",
+  "devDependencies": {
+    "lerna": "^6.0.1"
   }
-  
+}

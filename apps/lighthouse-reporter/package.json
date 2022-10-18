@@ -1,0 +1,17 @@
+{
+  "name": "@d13z/lighthouse-reporter",
+  "version": "1.0.0",
+  "description": "A Lighthouse only docker container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Danilo Velasquez <danilo.velasquez@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lighthouse": "^9.6.7",
+    "typescript": "^4.8.4"
+  }
+}
