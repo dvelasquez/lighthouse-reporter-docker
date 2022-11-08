@@ -1,0 +1,35 @@
+name: Lint, test & build
+
+on:
+  push: 
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  install_dependencies:
+    name: Install dependencies
+    runs-on: ubuntu-latest
+
+    steps:            
+      - uses: actions/checkout@v3          
+      
+      - uses: pnpm/action-setup@v2
+        name: Setup PNPM
+        with:
+          version: latest
+      
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.12.1
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm i
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Build
+        run: pnpm build
