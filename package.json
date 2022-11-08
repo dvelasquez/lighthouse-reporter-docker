@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/dvelasquez/lighthouse-reporter-docker#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.40.1",
-    "@typescript-eslint/parser": "5.40.1",
+    "@typescript-eslint/eslint-plugin": "5.42.1",
+    "@typescript-eslint/parser": "5.42.1",
     "eslint": "8.2.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
