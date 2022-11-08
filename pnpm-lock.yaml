@@ -37,13 +37,13 @@ importers:
       '@types/express': 4.17.14
       '@types/node': 18.11.5
       express: 4.18.2
-      lighthouse: 9.6.7
+      lighthouse: 9.6.8
       ts-node: 10.9.1
       ts-node-dev: 2.0.0
       typescript: 4.8.4
     dependencies:
       express: 4.18.2
-      lighthouse: 9.6.7
+      lighthouse: 9.6.8
     devDependencies:
       '@types/express': 4.17.14
       '@types/node': 18.11.5
@@ -4133,8 +4133,8 @@ packages:
     resolution: {integrity: sha512-vlCUxxQAB8Nu6LQHqPpDRiMi06Du593/my/6JbMttQeEfJ7pf4OS8obSTh5xSOS80U/O7fq59Q8rQGAUxQatUQ==}
     dev: false
 
-  /lighthouse/9.6.7:
-    resolution: {integrity: sha512-5ve7eVnDjZPzdK4XG+fZPO3JG6xdyL6yvuMRawYYVLvBqafZel9fXeETtw1qsMg5cKP96lMQCaVP/OtuTHJmRw==}
+  /lighthouse/9.6.8:
+    resolution: {integrity: sha512-5aRSvnqazci8D2oE7GJM6C7IStvUuMVV+74cGyBuS4n4NCixsDd6+uJdX834XiInSfo+OuVbAJCX4Xu6d2+N9Q==}
     engines: {node: '>=14.15'}
     hasBin: true
     dependencies:
