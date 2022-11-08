@@ -1,0 +1,38 @@
+name: Lint, test & build
+
+on:
+  push: 
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  install_dependencies:
+    name: Install dependencies
+    runs-on: ubuntu-latest
+
+    steps:            
+      - uses: actions/checkout@v3
+      - name: Cache node_modules 📦
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.pnpm-store
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**/package.json') }}
+            ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+      
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.12.1
+      
+      - uses: pnpm/action-setup@v2
+        name: Setup PNPM & Install dependencies 👨🏻‍💻
+        with:
+          version: latest
+          run_install: true
+      
+      - name: Lint
+        run: pnpm lint
