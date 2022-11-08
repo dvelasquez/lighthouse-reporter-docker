@@ -10,7 +10,7 @@ importers:
       eslint-config-airbnb: 19.0.4
       eslint-config-prettier: 8.5.0
       eslint-plugin-import: 2.26.0
-      eslint-plugin-jsx-a11y: 6.5.1
+      eslint-plugin-jsx-a11y: 6.6.1
       eslint-plugin-prettier: 4.2.1
       eslint-plugin-react: 7.31.10
       eslint-plugin-react-hooks: 4.6.0
@@ -21,10 +21,10 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.42.1_d506b9be61cb4ac2646ecbc6e0680464
       '@typescript-eslint/parser': 5.42.1_eslint@8.27.0+typescript@4.8.4
       eslint: 8.27.0
-      eslint-config-airbnb: 19.0.4_d9fae18397444f4dc818f90c550214a2
+      eslint-config-airbnb: 19.0.4_34ddd74abbbbee0348d102a50ee3ee3a
       eslint-config-prettier: 8.5.0_eslint@8.27.0
       eslint-plugin-import: 2.26.0_4b5c7b33e425cd6fd0743d8841882d79
-      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.27.0
+      eslint-plugin-jsx-a11y: 6.6.1_eslint@8.27.0
       eslint-plugin-prettier: 4.2.1_afddd95fb7dd832efd05cfac2e17feb1
       eslint-plugin-react: 7.31.10_eslint@8.27.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.27.0
@@ -2685,7 +2685,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-airbnb/19.0.4_d9fae18397444f4dc818f90c550214a2:
+  /eslint-config-airbnb/19.0.4_34ddd74abbbbee0348d102a50ee3ee3a:
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2698,7 +2698,7 @@ packages:
       eslint: 8.27.0
       eslint-config-airbnb-base: 15.0.0_189f5e34238f552d1fbeffee35ce2af1
       eslint-plugin-import: 2.26.0_4b5c7b33e425cd6fd0743d8841882d79
-      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.27.0
+      eslint-plugin-jsx-a11y: 6.6.1_eslint@8.27.0
       eslint-plugin-react: 7.31.10_eslint@8.27.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.27.0
       object.assign: 4.1.4
@@ -2783,8 +2783,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jsx-a11y/6.5.1_eslint@8.27.0:
-    resolution: {integrity: sha512-sVCFKX9fllURnXT2JwLN5Qgo24Ug5NF6dxhkmxsMEUZhXRcGg+X3e1JbJ84YePQKBl5E0ZjAH5Q4rkdcGY99+g==}
+  /eslint-plugin-jsx-a11y/6.6.1_eslint@8.27.0:
+    resolution: {integrity: sha512-sXgFVNHiWffBq23uiS/JaP6eVR622DqwB4yTzKvGZGcPq6/yZ3WmOZfuBks/vHWo9GaFOqC2ZK4i6+C35knx7Q==}
     engines: {node: '>=4.0'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
@@ -2802,6 +2802,7 @@ packages:
       jsx-ast-utils: 3.3.3
       language-tags: 1.0.5
       minimatch: 3.1.2
+      semver: 6.3.0
     dev: true
 
   /eslint-plugin-prettier/4.2.1_afddd95fb7dd832efd05cfac2e17feb1:
