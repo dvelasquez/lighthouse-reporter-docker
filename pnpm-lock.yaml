@@ -10,7 +10,7 @@ importers:
       '@typescript-eslint/parser': 5.43.0
       eslint: 8.27.0
       eslint-config-airbnb: 19.0.4
-      eslint-config-prettier: 8.5.0
+      eslint-config-prettier: 8.6.0
       eslint-plugin-import: 2.26.0
       eslint-plugin-jsx-a11y: 6.6.1
       eslint-plugin-prettier: 4.2.1
@@ -27,10 +27,10 @@ importers:
       '@typescript-eslint/parser': 5.43.0_rmayb2veg2btbq6mbmnyivgasy
       eslint: 8.27.0
       eslint-config-airbnb: 19.0.4_gto5osv3xpxagsgraksq5y7ohi
-      eslint-config-prettier: 8.5.0_eslint@8.27.0
+      eslint-config-prettier: 8.6.0_eslint@8.27.0
       eslint-plugin-import: 2.26.0_wbsj7pk5g7hogwvhsif6xntns4
       eslint-plugin-jsx-a11y: 6.6.1_eslint@8.27.0
-      eslint-plugin-prettier: 4.2.1_v7o5sx5x3wbs57ifz6wc4f76we
+      eslint-plugin-prettier: 4.2.1_xemye6syy24dylkxr3amcw6arm
       eslint-plugin-react: 7.31.10_eslint@8.27.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.27.0
       lerna: 6.0.3
@@ -3623,8 +3623,8 @@ packages:
       object.entries: 1.1.5
     dev: true
 
-  /eslint-config-prettier/8.5.0_eslint@8.27.0:
-    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+  /eslint-config-prettier/8.6.0_eslint@8.27.0:
+    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -3723,7 +3723,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_v7o5sx5x3wbs57ifz6wc4f76we:
+  /eslint-plugin-prettier/4.2.1_xemye6syy24dylkxr3amcw6arm:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -3735,7 +3735,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.27.0
-      eslint-config-prettier: 8.5.0_eslint@8.27.0
+      eslint-config-prettier: 8.6.0_eslint@8.27.0
       prettier: 2.7.1
       prettier-linter-helpers: 1.0.0
     dev: true
