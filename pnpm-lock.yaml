@@ -18,11 +18,11 @@ importers:
       eslint-plugin-react-hooks: 4.6.0
       lerna: 6.6.0
       nx: ^15.0.11
-      prettier: 2.8.6
+      prettier: 2.8.7
       typescript: 5.0.2
     devDependencies:
       '@nrwl/nx-cloud': 15.0.2
-      '@nrwl/workspace': 15.0.11_ctxmzhq3xstovqjsllvgpoxqru
+      '@nrwl/workspace': 15.0.11_t6jrriapi62nb4oh2yzddg3yn4
       '@typescript-eslint/eslint-plugin': 5.56.0_2hcjazgfnbtq42tcc73br2vup4
       '@typescript-eslint/parser': 5.56.0_j4766f7ecgqbon3u7zlxn5zszu
       eslint: 8.36.0
@@ -30,12 +30,12 @@ importers:
       eslint-config-prettier: 8.8.0_eslint@8.36.0
       eslint-plugin-import: 2.27.5_cnkxirszkzb4o6ts7gbclno24e
       eslint-plugin-jsx-a11y: 6.7.1_eslint@8.36.0
-      eslint-plugin-prettier: 4.2.1_ose2zoovovx4ulolhifz3tfzx4
+      eslint-plugin-prettier: 4.2.1_ywlv3zveqg2kxfq44lflihh5mm
       eslint-plugin-react: 7.32.2_eslint@8.36.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.36.0
       lerna: 6.6.0
       nx: 15.0.11
-      prettier: 2.8.6
+      prettier: 2.8.7
       typescript: 5.0.2
 
   apps/lighthouse-reporter:
@@ -1212,7 +1212,7 @@ packages:
       - debug
     dev: true
 
-  /@nrwl/workspace/15.0.11_ctxmzhq3xstovqjsllvgpoxqru:
+  /@nrwl/workspace/15.0.11_t6jrriapi62nb4oh2yzddg3yn4:
     resolution: {integrity: sha512-cxH4ltjWyUzCNz6BnNAXDVlNgh2HRfTpIXaWeeTq3w7YTSa7L9+Yos1mtw/p63VOPKASAjz60rdI2tKb2EexNQ==}
     peerDependencies:
       prettier: ^2.6.2
@@ -1239,7 +1239,7 @@ packages:
       npm-run-path: 4.0.1
       nx: 15.0.11
       open: 8.4.0
-      prettier: 2.8.6
+      prettier: 2.8.7
       rxjs: 6.6.7
       semver: 7.3.4
       tmp: 0.2.1
@@ -3356,7 +3356,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_ose2zoovovx4ulolhifz3tfzx4:
+  /eslint-plugin-prettier/4.2.1_ywlv3zveqg2kxfq44lflihh5mm:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -3369,7 +3369,7 @@ packages:
     dependencies:
       eslint: 8.36.0
       eslint-config-prettier: 8.8.0_eslint@8.36.0
-      prettier: 2.8.6
+      prettier: 2.8.7
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -6760,8 +6760,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.8.6:
-    resolution: {integrity: sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
