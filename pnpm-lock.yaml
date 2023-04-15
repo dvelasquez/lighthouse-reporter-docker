@@ -59,8 +59,8 @@ importers:
         specifier: 4.18.2
         version: 4.18.2
       lighthouse:
-        specifier: 10.1.0
-        version: 10.1.0
+        specifier: 10.1.1
+        version: 10.1.1
     devDependencies:
       '@types/express':
         specifier: 4.17.17
@@ -3023,6 +3023,10 @@ packages:
     resolution: {integrity: sha512-RqoZ2GmqaNxyx+99L/RemY5CkwG9D0WEfOKxekwCRXOGrDCep62ngezEJUVMq6rISYQ+085fJnWDQqGHlxVNww==}
     dev: false
 
+  /devtools-protocol@0.0.1130274:
+    resolution: {integrity: sha512-kIozBWajgsi1g0W8yzALI4ZdCp6KG1yWaq8NN1ehQM3zX6JRegLSzfexz7XT5eFjmq1RkpMYgeKmfi3GsHrCLw==}
+    dev: false
+
   /diff-sequences@28.1.1:
     resolution: {integrity: sha512-FU0iFaH/E23a+a718l8Qa/19bF9p06kgE0KipMOMadwa3SjnaElKzPaUC0vnibs6/B/9ni97s61mcejk8W1fQw==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
@@ -4263,8 +4267,8 @@ packages:
       toidentifier: 1.0.1
     dev: false
 
-  /http-link-header@1.1.0:
-    resolution: {integrity: sha512-pj6N1yxOz/ANO8HHsWGg/OoIL1kmRYvQnXQ7PIRpgp+15AnEsRH8fmIJE6D1OdWG2Bov+BJHVla1fFXxg1JbbA==}
+  /http-link-header@1.1.1:
+    resolution: {integrity: sha512-mW3N/rTYpCn99s1do0zx6nzFZSwLH9HGfUM4ZqLWJ16ylmYaC2v5eYGqrNTQlByx8AzUgGI+V/32gXPugs1+Sw==}
     engines: {node: '>=6.0.0'}
     dev: false
 
@@ -5426,8 +5430,8 @@ packages:
     resolution: {integrity: sha512-9prq6oMkVHz3GeCkphq4FHXXdj3M/WPiFWUvJAczLYV8j/oTxsgiHSPMqh1KVV11CP0VTxD40hFC0pDfXF+khQ==}
     dev: false
 
-  /lighthouse@10.1.0:
-    resolution: {integrity: sha512-lIBgCcKK9bdPg95lMA+9RW9f8JZPRewVruloBxxSuu+90Ln422S8dpxC70KhvojdaeqeOLT9zJazZYgG+k1s3g==}
+  /lighthouse@10.1.1:
+    resolution: {integrity: sha512-fw+IErhG3MB3SS8SWDcz+RMzM7n6/CPBShdQUTnc39U4V1yDVr+qBRtlXBhbpH5SFASzJnD6Xkm5SoYyCACHMg==}
     engines: {node: '>=16.16'}
     hasBin: true
     dependencies:
@@ -5436,8 +5440,9 @@ packages:
       chrome-launcher: 0.15.1
       configstore: 5.0.1
       csp_evaluator: 1.1.1
+      devtools-protocol: 0.0.1130274
       enquirer: 2.3.6
-      http-link-header: 1.1.0
+      http-link-header: 1.1.1
       intl-messageformat: 4.4.0
       jpeg-js: 0.4.4
       js-library-detector: 6.6.0
