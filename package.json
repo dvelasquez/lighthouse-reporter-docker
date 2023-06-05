@@ -25,7 +25,7 @@
     "url": "https://github.com/dvelasquez/lighthouse-reporter-docker/issues"
   },
   "homepage": "https://github.com/dvelasquez/lighthouse-reporter-docker#readme",
-  "packageManager": "pnpm@8.6.0",
+  "packageManager": "pnpm@8.6.1",
   "devDependencies": {
     "@nrwl/nx-cloud": "^16.0.0",
     "@nrwl/workspace": "^15.0.11",
