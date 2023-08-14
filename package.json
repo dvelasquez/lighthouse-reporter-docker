@@ -28,7 +28,7 @@
   "packageManager": "pnpm@8.6.12",
   "devDependencies": {
     "@nrwl/nx-cloud": "^16.0.0",
-    "@nrwl/workspace": "^15.0.11",
+    "@nrwl/workspace": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "6.4.0",
     "@typescript-eslint/parser": "6.4.0",
     "eslint": "8.47.0",
@@ -40,7 +40,7 @@
     "eslint-plugin-react": "7.33.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "lerna": "6.6.2",
-    "nx": "^15.0.11",
+    "nx": "^16.0.0",
     "prettier": "2.8.8",
     "typescript": "5.1.6"
   },
